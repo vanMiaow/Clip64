@@ -1,0 +1,21 @@
+body {
+    width:  200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box {
+    width:  90%;
+    height: 87%;
+    border: dashed 2px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8px;
+    font-size: 24px;
+}
+#box::selection {
+    background: transparent;
+}
